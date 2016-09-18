@@ -46,7 +46,7 @@ Vanlig praksis er å dele datasettet inn i tre deler: Trenings-, validerings- og
 
 Undertrening er en lignende situasjon, hvor man stanser læringsprosessen for tidlig. Modellen har da ikke tilegnet seg nok erfaring til å generalisere godt nok. Dersom modellen aldri klarer å lære fra treningssettet, så er som regel enten datakvaliteten for lav, eller læringsalgoritmen misbrukt.
 
-![Feilrate ved trening og validering](http://localhost:8000/early-stop.png)
+![Feilrate ved trening og validering](https://raw.githubusercontent.com/tork/blog/master/machine-learning/resources/early-stop.png)
 
 Diagrammet over illustrerer problemet med overtrening. Vi ser at feilraten på treningssettet (blå kurve) går stabilt nedover etterhvert som læringsprosessen går sin gang. Når `Tid` er rundt `4`, ser vi at feilrate ved validering (oransje kurve) begynner å øke. I dette vendepunktet kan man avslutte læring og forhindre overtrening.
 
