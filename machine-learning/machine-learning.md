@@ -1,6 +1,3 @@
-# Maskinlæring
-Maskinlæring er blitt omtalt i økende grad de senere år, og det er lett å sitte igjen med et inntrykk at disse maskinene finner ut av det meste. På tross av betydelige fremskritt og gjennombrudd i feltet, er det fortsatt utfordringer ved anvendelse av maskinlæring, og feller å gå i. Med denne teksten ønsker jeg å belyse noen veletablerte begreper og aspekter ved maskinlæring.
-
 ## Datamaskinen
 I hjertet av datamaskinen finner vi et lite instruksjonssett som hovedsakelig anvender enkle matematiske eller logiske operasjoner. Over tid er det bygget et mangfold av tjenester og applikasjoner på toppen av disse intruksjonene. Hver gang vi sender en mail, ringer, spiller eller streamer en film, blir dette realisert blant annet fordi datamaskinen evner å legge sammen to tall i et forrykende tempo.
 
@@ -51,7 +48,7 @@ Undertrening er en lignende situasjon, hvor man stanser læringsprosessen for ti
 Diagrammet over illustrerer problemet med overtrening. Vi ser at feilraten på treningssettet (blå kurve) går stabilt nedover etterhvert som læringsprosessen går sin gang. Når `Tid` er rundt `4`, ser vi at feilrate ved validering (oransje kurve) begynner å øke. I dette vendepunktet kan man avslutte læring og forhindre overtrening.
 
 ## Læringsalgoritmen
-Generalisering fra data kan oppnås på flere måter, og forskjellige læringsalgoritmer vil skape ulike modeller. Ofte dikterer datasettet hvilken form for maskinlæring vi anvender. En vanlig måte å dele inn algoritmer, er supervised, unsupervised og reinforcement learning.
+Generalisering fra data kan oppnås på flere måter, og forskjellige læringsalgoritmer vil skape ulike modeller. Ofte dikterer datasettet hvilken form for maskinlæring vi anvender. En vanlig måte å dele inn algoritmer er supervised, unsupervised og reinforcement learning.
 
 ### Supervised learning
 For å løse lunsjproblemet vårt, ville det mest naturlige vært å brukt _supervised learning_. Det innebærer at man for hvert eksempel i datasettet legger ved hvilken klasse eksempelet egentlig tilhører (`bedre enn salat` eller `ikke bedre enn salat`). Læringsalgoritmen vil så bruke denne informasjonen til å se etter fellestrekk i eksempler som tilhører samme klasse, og generalisere ut fra disse. Trekkene kan være enkle, som at retter med smak av kjøtt som regel er bedre enn salat, eller mer komplekse som at retter med al dente pasta og rik tomatsaus er bedre enn salat. _Nevrale nettverk_, _support vector machines_ og _k nearest neighbors_ er eksempler på algoritmer som kan benytte supervised learning.
